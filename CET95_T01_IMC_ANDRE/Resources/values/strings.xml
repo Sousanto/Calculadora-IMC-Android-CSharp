@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CET95_T01_IMC_ANDRE</string>
+    <string name="app_text">Hello, Android!</string>
+	<string name="sPeso">Peso (kg)</string>
+	<string name="sAltura">Altura (m)</string>
+	<string name="sCalcular">Calcular</string>
+	<string name="sLimpar">Limpar</string>
+	<string name="sIMC">IMC (Kg/m2)</string>
+
+</resources>

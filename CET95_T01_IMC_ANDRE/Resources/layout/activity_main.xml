@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:backgroundTintMode="add"
+    android:background="@android:color/background_light"
+    >
+
+	<ImageView
+	   android:id="@+id/imgView"
+       android:layout_height="230dp"
+       android:layout_width="200dp"
+       android:layout_gravity="center"
+       android:src="@drawable/imc0"
+	/>
+	
+	<!-- Elementos para receber o peso      -->
+	<TextView
+        android:id="@+id/tvPeso"
+        android:text="@string/sPeso"
+        android:background="@drawable/backg"
+        android:textColor="@color/colorAccent"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+        style="@style/tvCommonProps"
+        />
+
+	<EditText
+       android:id="@+id/etPeso"
+       android:backgroundTint="@color/colorAccent"
+	   android:layout_height="wrap_content"
+	   android:layout_width="match_parent"
+	   android:tooltipText="Insira o seu peso!"
+	   android:hint="Insira o seu peso!"
+	   android:textColorHint="#aaa"
+	   android:textStyle="italic"
+       style="@style/etCommonProps"
+       />
+
+	<!-- Elementos para receber a altura      -->
+	<TextView
+        android:id="@+id/tvAltura"
+        android:text="@string/sAltura"
+        android:background="@drawable/backg"
+        android:textColor="@color/colorAccent"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+        style="@style/tvCommonProps"
+        />
+
+	<EditText
+       android:id="@+id/etAltura"
+       android:backgroundTint="@color/colorAccent"
+	   android:layout_height="wrap_content"
+	   android:layout_width="match_parent"
+	   android:tooltipText="Insira a sua altura!"
+	   android:textStyle="italic"
+	   android:hint="Insira a sua altura!"
+	   android:textColorHint="#aaa"
+       style="@style/etCommonProps"
+       />
+
+
+	<Button
+	  android:id="@+id/btCalcular"
+	  android:text="@string/sCalcular"
+	  android:background="@color/colorAccent"
+	  android:textColor="@color/btTextColor"
+	  android:layout_height="wrap_content"
+	  android:layout_width="match_parent"
+	  style="@style/btCommonProps"
+        />
+
+	<Button
+	 android:id="@+id/btLimpar"
+	 android:text="@string/sLimpar"
+	 android:layout_height="wrap_content"
+	 android:layout_width="match_parent"
+	 android:background="@color/colorAccent"
+	 android:textColor="@color/btTextColor"
+	 style="@style/btCommonProps"
+        />
+
+	<TextView
+	  android:id="@+id/tvIMC"
+	  android:text="@string/sIMC"
+	  android:background="@drawable/backg"
+	  android:textColor="@color/colorAccent"
+	  android:layout_height="wrap_content"
+	  android:layout_width="match_parent"
+	  style="@style/tvCommonProps"
+        />
+
+</LinearLayout>
